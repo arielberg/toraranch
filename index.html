@@ -12,9 +12,10 @@
             padding: 0;
         }
         .container {
-            padding: 20px;
+            padding: 110px 20px 20px;
             max-width: 1200px;
             margin: auto;
+            background-image: url('sunset.jpeg');
         }
         h1, h2, h3 {
             color: #2E4053;
@@ -27,6 +28,24 @@
         }
         ul {
             list-style: square inside;
+        }
+        .head {
+            background-color: rgba(255, 255, 255, 0.9);
+            position: fixed;
+            width: 100vw;
+            left: 0;
+            top: 0;
+        }
+        .menu li {
+            float: left;
+            list-style: none;
+            width: calc(95vw / 6);
+        }
+        section {
+            display: none;
+        }
+        section.active {
+            display: block;
         }
         @media (min-width: 768px) {
             .columns {
@@ -54,76 +73,236 @@
         }
     </style>
 </head>
-<body>
-
+<body>   
     <div class="container">
-        <h1>Halutz Program</h1>
-
-        <section class="about-us">
+        <div class="head">
+            <h1>Halutz Program</h1>
+            <ul class="menu">
+                <li>About Us</li>
+                <li>Location</li>
+                <li>FAQs</li>
+                <li>Our Team</li>
+                <li>Contact us</li>
+                <li>Gallery</li>
+            </ul>
+        </div>
+        <section class="about-us active">
             <h2>About Us</h2>
-            <p>As we all know, Am Yisrael and the State of Israel are facing major challenges today. The Halutz program has chosen to rise from today’s crises and embark upon a new endeavor to cultivate the Jewish leaders of tomorrow; those who will strengthen our Nation and our presence in the Land, and become the "pioneers" of tomorrow in all aspects of life.</p>
-        </section>
+            <p>As we all know, Am Yisrael and the State of Israel are facing major challenges today.
+               The Halutz program has chosen to rise from today’s
+               crises and embark upon a new endeavor to cultivate the Jewish leaders of tomorrow;
+               those who will strengthen our Nation and our presence in the Land, and become
+               the "pioneers" of tomorrow in all aspects of life.
+            </p>
 
-        <section class="vision">
             <h2>Our Vision</h2>
-            <p>The Halutz program prepares its participants for the challenges of adult Jewish life today, creating a new cadre of ‘pioneers’ that will see themselves leading our People in various fields, based on in-depth Torah understandings and a living connection to the Land of Israel developed by actually working the land.</p>
-        </section>
+            <p>The Halutz program prepares its participants for the challenges of adult
+                Jewish life today, creating a new cadre of ‘pioneers’ that will see themselves leading
+                our People in a variety of fields, based on in-depth Torah understandings and a living
+                connection to the Land of Israel developed by actually working the land.
+                The program encourages not only that we study Torah, but that we apply Torah both
+                on the personal level and on the national level. By combining a living Torah together
+                with other fields of knowledge and professional training in a variety of trades and
+                practical work in agriculture and land development, the program aims to create a
+                unique individual who will be equipped to face the challenges of the next generation.</p>
 
-        <section class="how-it-works">
             <h2>How Does It Work?</h2>
-            <p>Halutz participants will participate as pioneers building our homeland, engaging intimately with those most passionately committed to the Jewish people's story. The daily schedule includes study hours in the Beit Midrash, where participants clarify Torah and Jewish faith and apply insights with mentors to meet the challenges of the day.</p>
-        </section>
-
-        <section class="values">
+            <p>
+                Halutz participants will be afforded the opportunity to participate as pioneers
+                building our homeland, while engaging intimately with those Israelis most
+                passionately committed to the story of the Jewish people.
+                The daily schedule includes regular study hours in the Beit Midrash, the goal of
+                which is to enable every young man to take an active part in understanding and
+                clarifying for himself our Torah and the Jewish faith, while applying insights together
+                with their mentors to meet the challenges of the day.
+                By living, working, and studying alongside craftsmen, vintners, shepherds and
+                farmers, students will learn new skills and develop their connection to today’s Jewish
+                renaissance, actually creating, building, and working the Land while deepening their
+                commitment to our people’s rich heritage.
+                The program operates on an apprenticeship basis, offering seminars in fields that
+                include woodworking, stone-masonry, welding, organic farming, tanning,
+                shepherding, wine-making and more, linking these crafts to the powerful spiritual
+                teachings and traditional values of the People of Israel. Participants will experience
+                the entire process of manufacture and production from raw materials to the creation
+                of magnificent artworks, gaining practical tools to be leaders of the next generation.
+                In-the-field learning will be augmented with lectures and workshops ranging from
+                Torah lessons to topics like Middle East history and geopolitics.
+                In addition, there will be a common fund with which the students of the Kedem
+                Academy will finance enrichment activities to prepare them for leading roles in the
+                Israeli military, including:
+                Guided tours.
+                Field workshops.
+                Workshops to get to know Israeli society.
+                Navigation and topography studies.
+                MDS and physical and mental preparation for military service.
+                External lessons of role models (Rabbis, heroes of Israel, pioneers, etc.)
+                Diverse social activity
+            </p>
             <h2>Leading Values</h2>
             <ul>
-                <li>Freedom - Room for choice and independence.</li>
-                <li>Responsibility - Active role in day-to-day work and management.</li>
-                <li>Trust - Mutual trust between staff and participants.</li>
+                <li><span class='bold'>Freedom</span>Room for choice and independence.</li>
+                <li><span class='bold'>Responsibility</span>Active role in day-to-day work and management.</li>
+                <li><span class='bold'>Trust</span>Mutual trust between staff and participants.</li>
             </ul>
         </section>
 
         <section class="location">
             <h2>Location</h2>
-            <p>The Halutz program is located on the Pnei Kedem Farm, southeast Gush Etzion, on the edge of the Judean desert. Participants live, study, and work on the farm while developing the Land.</p>
+            <p>
+                The Halutz program is a new educational project
+                situated on the Pnei Kedem Farm, in southeast Gush Etzion on the edge of the
+                Judean desert, overlooking the Dead Sea, above the Arugot stream that runs all the
+                way down to the famous springs of Ein Gedi. The farm itself controls thousands of
+                acres of State Land, raises sheep and goats, has a variety of wine vineyards and
+                other agricultural endeavors. The farm is committed to redeeming and developing
+                the Land, beautifying it with hiking trails, observation points, resting places and other
+                tourist attractions.
+                Halutz participants live, study, and work on the farm, develop the Land, and receive
+                practical tools to deal with the various challenges that life on a pioneering farm
+                invites.
+                The relative remoteness of the farm and the spaces around it constitute an ideal
+                platform for an educational process that will grow the leaders of tomorrow.
+                <img src="https://via.placeholder.com/800x400" alt="Map placeholder">
+            </p>
         </section>
-
-        <div class="map">
-            <h3>Map</h3>
-            <img src="https://via.placeholder.com/800x400" alt="Map placeholder">
-        </div>
 
         <section class="program">
             <h2>Program</h2>
             <h3>What is it?</h3>
-            <p>A program that affords young adults the opportunity to participate as pioneers in the building of our homeland, while engaging intimately with those Israelis most passionately committed to the living story of the Jewish People.</p>
-            <h3>How long is it?</h3>
-            <p>Participants stay from three months to a year. No shorter than a two-month stay is recommended.</p>
-            <h3>Cost</h3>
-            <p>$1400 per month for room and board. Scholarships may be available.</p>
-        </section>
+            A program that affords young adults the opportunity to participate as pioneers in the building of our homeland, while engaging intimately with those Israelis most passionately committed to the living story of the Jewish People. Participants live, work and learn alongside craftsmen and agriculturalists on our farm, learn new skills and develop their connection to today's Jewish renaissance, actually creating, building and working the land. Participants receive personal guidance from dedicated staff members, who assist them in developing their own unique and authentic path.
 
-        <section class="workshops">
-            <h2>Workshops</h2>
+            <h3>How long is it?</h3>
+            Most participants stay from three months to a year. We recommend no shorter than a two month stay.
+
+            <h3>How much does it cost?</h3>
+            Room and board costs $1400 per month, check with us for possible scholarships/ funding.
+
+            <h3>When does it start?</h3>
+            The program runs throughout the year, and is flexible to the needs of its participants. Please contact us in order to arrange the best starting time for you.
+
+            <h3>Who is it for?</h3>
+            The Halutz program is specifically geared towards young adults and couples who:
+
+            Enjoy learning new skills in an apprenticeship-style workshop environment...
+            Want to take actual part in the Jewish renaissance taking place
+            Are independent and self-motivated
+            Enjoy integrating fulfilling work with powerful teachings ranging from Torah to geopolitics
+            Enjoy unique journeys, and don't mind working hard and getting their hands dirty!
+            Understand the value of developing ourselves as holistic, integrated individuals, mind and matter, spiritual and material, for all is One.
+
+
+            Workshops
+            <ol>
+                <li>Building and development דומם: Stone-masonry, carpentry, metal-work</li>
+                <li>Vegetative צומח: Vineyards, grains, vegetable gardens</li>
+                <li>Animal חי: Flock of sheep</li>
+                <li>Man אדם: Geo-politics, history, music</li>
+                <li>Israel ישראל: Torah</li>
+            </ol>
+
+            Courses
             <ul>
-                <li>Stone-masonry, carpentry, metal-work</li>
-                <li>Vineyards, grains, vegetable gardens</li>
-                <li>Sheep farming</li>
-                <li>Geo-politics, history, music</li>
-                <li>Torah studies</li>
+                <li>Extra-curricular activity</li>
+                <li>Hikes</li>
+                <li>Lectures</li>
+                <li>Visiting communities</li>
+                <li>Army preparation</li>
+                <li>Shabbat</li>
             </ul>
         </section>
 
+
         <section class="faq">
             <h2>FAQs</h2>
-            <p><strong>Can I join if I'm female?</strong> The program offers several tracks at different parts of the year. Contact for more info.</p>
-            <p><strong>I don't know Hebrew</strong> All classes are in English, and intensive Hebrew courses are included.</p>
+            <p>
+                <span class="q">I am female?</span>
+                <span class="a">The Halutz program offers several tracks at different parts of the year. Contact us for details if you need an all female environemnt.</span>
+            </p>
+            <p>
+                <span class="q">I don't know Hebrew</span>
+                <span class="a">That’s fine! All classes are in English and our curriculum has intensive Hebrew courses built in to help you make progress in conversational Hebrew and textual literacy.</span>
+            </p>
+            <p>
+                <span class="q">I'm not religious</span>
+                <span class="a"></span>
+            </p>
+            <p>
+                <span class="q">I'm married</span>
+                <span class="a"></span>
+            </p>
+            <p>
+                <span class="q">I have children</span>
+                <span class="a"></span>
+            </p>
+            <p>
+                <span class="q">I can only come for a short time</span>
+                <span class="a"></span>
+            </p>
+            <p>
+                <span class="q">I am ultra-orthodox (Haredi)</span>
+                <span class="a"></span>
+            </p>
+            <p>
+                <span class="q">I'm over 35</span>
+                <span class="a"></span>
+            </p>
+            <p>
+                <span class="q">I'm under 20</span>
+                <span class="a"></span>
+            </p>
+            <p>
+                <span class="q">I'm not Jewish</span>
+                <span class="a"></span>
+            </p>
+
+            <h5>Program details:</h5>
+            When are next start dates
+            What will my schedule look like?
+            How much free time is there?
+            What are the rules about free time?
+            Who are the other participants?
+            Is there a dress code?
+            Where will I live?
+            What happens on Shabbat?
+            Can I get professional certifcation from the workshops?
+            Can I get college credit?
+
+            <h5>Tuition</h5>
+            What are the tuition costs?
+            What is covered by tuition?
+            Are there scholarships and subsidies available?
+
+            <h5>Misc</h5>
+            Is it safe?
+            Can I speak to previous participants
+
         </section>
 
         <section class="team">
             <h2>Our Team</h2>
-            <p><strong>Gavriel Reiss:</strong> Founder and director of Pnei Kedem Farms, triple degree holder and served in elite units of the Israeli army.</p>
-            <p><strong>Rabbi Orel Daudi:</strong> Educator and rabbi, commander in the Armored Corps reserves.</p>
+            <span>Gavriel Reiss</span>
+            Founder and director of the Pnei Kedem Farms, born and raised in
+            Los Angeles, served in elite units in the Israeli army, holds a triple degree in
+            philosophy, political science and economics from the Hebrew University, as well as a
+            letter of yoreh yoreh.
+            <span>Rabbi Orel Daudi</span>
+            is an educator and rabbi. A resident of Pnei Kedem, Rabbi Daudi
+            holds a bachelor's degree in education and has accrued years of experience in the
+            world of yeshivot and mechinot. Rabbi Daudi is also a commander in the Armored
+            Corps reserves and owns a local winery.
+            Ori Arnon, born and raised in the Jewish quarter of Hebron, is the General Director
+            of the Kedem Pre-Military Academy. A longtime resident of Pnei Kedem, Ori has a
+            Master's degree in education and Eretz Israel; he is an experienced educator, tour
+            guide and project manager.
+            <span>Matanya Hershkopf</span>
+            the Academy’s combat instructor, is a resident of Pnei Kedem
+            and a captain in a reserve paratrooper unit. He is currently the director of the
+            "Acharai" association, and previously managed a home for at-risk youth. Matanya is
+            in charge of the physical and mental preparation for military service.
+            <span>Uri Mitelman</span>
+            the social madrich, leads group activities and accompanies the
+            personal development of each participant. Uri is a family counselor and personal
+            coach.
         </section>
 
         <section class="contact">
